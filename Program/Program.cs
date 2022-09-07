@@ -24,6 +24,11 @@ string [] overwritingArray(string str)
 
 void Print(string[]arr)
 {
+    Console.Write("Массив строк с 3 и менее символами-> ");
+    foreach (var item in arr)
+    {
+        Console.Write($"{item} "); 
+    }
 }
 
 if(consolеRead == "")Console.WriteLine("Пустая строка");
